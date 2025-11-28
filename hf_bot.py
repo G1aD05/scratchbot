@@ -70,7 +70,7 @@ def generate(content: str):
     ).choices[0].message
 
 
-def bot(username, password):
+def bot(username: str, password: str):
     """
     Creates a scratch bot
 
