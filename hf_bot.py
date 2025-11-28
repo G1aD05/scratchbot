@@ -19,7 +19,7 @@ PROMPT: str = "%u wrote this comment: \"%c\" reply to it as if you were british,
 
 client = InferenceClient()
 console = Console()
-DEBUG = True
+DEBUG = True  # Set to false if you don't want debug logs
 
 
 def moderate(text: str) -> bool:
